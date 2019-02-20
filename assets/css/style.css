@@ -1,18 +1,42 @@
 /* selectors are listed from most general to most specific*/
-
+/* styling for body, background */
 body {
     background-image: url("../images/Background.png");
-    border: 2px black;
-    text-align: center;
 }
 
-/* trying to center the 'about me' tile */
-.center p{
-    position: relative;
-    top: 50%;
-    transform: perspective(1px) translateY(-50);
+/* styling for header/nav bar */
+.header {
+    background-color: darkgrey;
+    height: 70px;
+    width: 100%;
 }
 
+/* header1 styling, same width as body */
+/*.header1 {
+    background-color: white;
+    width: 50%;
+    max-width: 960px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid red;
+}*/
+
+/* name styling will align the text to the left side of its parent using position: relative */
+.name {
+    position: absolute;
+    background-color: darkgrey;
+    width: 250px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 3px solid greenyellow;*/
+    
+}
+
+/* styling for header1 */
 .headshot {
     margin-left: auto;
     margin-right: auto;
@@ -22,9 +46,10 @@ ul {
     list-style-position: inside;
 }
 
-.Main {
+.main {
     background-color: darkgrey;
     max-width: 960px;
+    min-width: 480px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +58,7 @@ ul {
     padding: 10px;
 }
 
-h1 {
+.aboutme {
     padding-left: 15px;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif; 
