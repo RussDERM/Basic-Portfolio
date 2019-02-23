@@ -2,14 +2,15 @@
 /* styling for body, background */
 body {
     background-image: url("../images/Background.png");
+    margin: 0px;
 }
 
 /* styling for header/nav bar */
 .header {
-    background-color: darkgrey;
-    height: 70px;
-    width: 100%;
     position: absolute;
+    background-color: darkgrey;
+    width: 100%;
+    height: 70px;
 }
 
 /* header section, to be positioned same way as 'main' */
@@ -26,20 +27,12 @@ body {
 
 /* name styling will align the text to the left side of its parent using position: relative */
 .name {
-    float: left;
-    position: relative;
+    margin: 0px;
     background-color: #4aaaa5;
-    /* height: 100%; */
     width: 250px;
     height: 70px;
-    /* position: top; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* padding: 10px; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    /*border: 3px solid greenyellow;*/
-    
 }
 
 /* styling for addon, to make header 960px */
