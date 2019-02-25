@@ -1,5 +1,6 @@
  /* selectors are listed from most general to most specific*/
-/* styling for body, background */
+ 
+ /* styling for body, background */
 body {
     background-image: url("../images/Background.png");
     margin: 0px;
@@ -16,7 +17,7 @@ body {
 /* header section, to be positioned same way as 'main' */
 .headersection{
     position: relative;
-    background-color: lightgrey;
+    background-color: darkgrey;
     width: 50%;
     height: 100%;
     max-width: 960px;
@@ -27,20 +28,15 @@ body {
 
 /* name styling will align the text to the left side of its parent using position: relative */
 .name {
-    margin: 0px;
     background-color: #4aaaa5;
+    font-size: 1.5em;
+    padding-left: 15px; 
     width: 250px;
     height: 70px;
+    line-height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
     color: white;
-}
-
-/* styling for addon, to make header 960px */
-.addon{
-    float:right;
-    background-color: green;
-    height: 70px;
-    width: 710px;   
 }
 
 .main {
@@ -53,11 +49,15 @@ body {
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: auto;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .aboutme {
+    font-size: 1.5em;
+    /* padding-top: 15px;
     padding-left: 15px;
+    padding-bottom: 15px; */
+    padding: 15px;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif; 
 }
@@ -65,11 +65,14 @@ body {
 .line {
     margin-left: 15px;
     margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: lightgrey;
     background-color: lightgrey;
     border-color: lightgrey;
+    border-width: 0px;
     border-radius: 2px;
-    height: 3px;
+    height: 4px;
 }
 
 .headshot {
@@ -80,5 +83,6 @@ body {
 .bio {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    padding-bottom: 15px;
     margin: 15px;
 }
