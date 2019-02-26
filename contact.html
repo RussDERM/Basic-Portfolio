@@ -2,38 +2,58 @@
 <html lang="en-us">
 
 <head>
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--CSS Reset Link-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!--Local CSS Link-->
     <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
-    <title>Russ Dermody - Contact</title>   
+    <title>Russ Dermody - Portfolio</title>   
 </head>
 
-<body>
-
-<!--Header-->
-<div class="header">
-        <section class="headersection">
-            <h1 class="name h1">
+<body>       
+    <!--Beginning of nested header divs-->
+    <div class="header">
+        <div class="headersection">
+            <h1 class="name">
                 Russ Dermody
             </h1>
-        </section>
+        </div>
+
+        <div>
+            <h1 class="nav">
+                About
+            </h1>
+
+            <h1 class="nav">
+                Portfolio
+            </h1>
+
+            <h1 class="nav">
+                Contact
+            </h1>
+        </div>    
     </div>
 <br>
-<br>
+<br>                    
+
 <!--Main Body-->
 <div class="main">
-    <h1>
+    <h1 class="contactme">
         Contact Me
     </h1>
 
     <hr class="line">
 
-    <form>
-        Name<br>
-        <input type="text" name="firstname"><br>
-        Email<br>
-        <input type="text" name="email"><br>
-        Message<br>
-        <input type="text" name="message"><br>
+    <form class="contactform">
+        <h1 class="formheaders">Name</h1>
+        <input type="text" name="firstname">
+        <h1 class="formheaders">Email</h1>
+        <input type="text" name="email">
+        <h1 class="formheaders">Message</h1>
+        <input id="message" type="text" name="message">
     </form>
 
 
