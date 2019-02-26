@@ -102,6 +102,7 @@ body {
     text-align: left;
     padding-bottom: 15px;
     margin: 15px;
+    font-size: 14px;
 }
 
 /* Styling for contact page */
@@ -146,6 +147,7 @@ input {
 
 /* styles the name and email box */
 #form{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     width: 100%;
     margin-bottom: 10px;
@@ -155,9 +157,10 @@ input {
 /* styles the message input box */
 #message{
     margin: 0px;
-    line-height: 250px;
     width: 100%;
+    height: 250px;
     border: solid 1px lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* styles the form submit button */
@@ -171,7 +174,7 @@ input {
     border: solid 2px #4aaaa5;
     margin-left: 15px;
     margin-bottom: 15px;
-    transition-duration: 0.4s;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .submit:hover {
