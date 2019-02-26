@@ -32,8 +32,8 @@ body {
     background-color: #4aaaa5;
     font-size: 1.5em;
     font-weight: bolder;
-    padding-left: 15px; 
-    width: 200px;
+    text-align: center; 
+    width: 225px;
     height: 70px;
     line-height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -139,16 +139,50 @@ input {
 
 /* styles the input box titles */
 .formheaders {
-    padding: 5px;
+    padding-bottom: 5px;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* styles the input boxes */
-input{
+/* styles the name and email box */
+#form{
     margin: 0px;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    border: solid 1px lightgrey;
 }
 
+/* styles the message input box */
 #message{
+    margin: 0px;
     line-height: 250px;
+    width: 100%;
+    border: solid 1px lightgrey;
+}
+
+/* styles the form submit button */
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 2px #4aaaa5;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    transition-duration: 0.4s;
+}
+
+.submit:hover {
+    
+    background-color: white;
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 2px #4aaaa5;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
