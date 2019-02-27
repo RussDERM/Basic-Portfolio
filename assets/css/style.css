@@ -20,8 +20,8 @@ body {
     background-color: white;
     width: 50%;
     height: 100%;
-    max-width: 960px;
-    min-width: 480px;
+    max-width: 878px;
+    min-width: 584px;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -57,8 +57,8 @@ body {
 .main {
     clear: both;
     background-color: white;
-    max-width: 960px;
-    min-width: 480px;
+    max-width: 878px;
+    min-width: 584px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -80,8 +80,8 @@ body {
 }
 
 .line {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: lightgrey;
@@ -189,3 +189,37 @@ input {
     margin-left: 15px;
     margin-bottom: 15px;
 }
+
+/* styling for portfolio page */
+
+/* basic styling for all divs */
+.portfolio {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #4aaaa5;
+    padding: 20px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.project {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    background-color: darkgrey;
+    margin: 20px;
+    border: 2px greenyellow;
+
+}
+
+.pr1.pr3.pr5 {
+    position: left;
+}
+
+.pr2.pr4 {
+    position: right;
+}
+
+/* float styling for projects */
+
+
