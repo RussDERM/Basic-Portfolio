@@ -18,17 +18,16 @@ body {
 .headersection{
     position: relative;
     background-color: white;
-    width: 50%;
+    width: 584px;
     height: 100%;
-    max-width: 878px;
-    min-width: 584px;
+    
     margin-left: auto;
     margin-right: auto; 
 }
 
 /* name styling will align the text to the left side of its parent using position: relative */
 .name {
-    
+    float: left;
     background-color: #4aaaa5;
     font-size: 1.5em;
     font-weight: bolder;
@@ -40,16 +39,29 @@ body {
     color: white;
 }
 
-/* Nav buttons */
+/* Styles Nav buttons */
 .nav {
-    /* float: left; */
-    display: inline;
-    padding-left: 15px; 
-    width: 200px;
-    height: 70px;
-    line-height: 70px;
+    float: right;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: lightgrey;
+}
+
+/* Styles Nav Buttons */
+.navbtn {
+    line-height: 70px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Styles Nav Button Font */
+.navlink{
+    color: darkgrey;
+}
+
+.navlink:hover{
+    color: darkgrey;
+    text-decoration: none;
 }
 
 /* Styling for index.html */
@@ -57,9 +69,8 @@ body {
 .main {
     clear: both;
     background-color: white;
-    max-width: 878px;
-    min-width: 584px;
-    width: 50%;
+    position: relative;
+    width: 584px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -203,7 +214,9 @@ input {
 }
 
 .project {
+    z-index: 1;
     display: inline-block;
+    /* position: relative; */
     height: 200px;
     width: 250px;
     background-color: darkgrey;
@@ -212,6 +225,7 @@ input {
 
 }
 
+/* float styling for projects */
 .pr1.pr3.pr5 {
     position: left;
 }
@@ -220,6 +234,42 @@ input {
     position: right;
 }
 
-/* float styling for projects */
+/* styling for project banner divs (odd numbers) */
+.prtitle1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
+    display: left;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+/* styling for project banner divs (even numbers) */
+.prtitle2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
 
 
